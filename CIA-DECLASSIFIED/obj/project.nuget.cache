@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kW8Uek/Hui+7gBfnaDlvi3KDueeRBmHmBRo6woCbhgNdIscRHr1LEKwcdo7rHZna16uEAJC+Q3pChmTW1C8ZfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cockus fattus\\OneDrive\\Desktop\\important shit\\CIA-DECLASSIFIED\\CIA-DECLASSIFIED\\CIA-DECLASSIFIED.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cockus fattus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CIA-DECLASSIFIED/1.0.0": {
+        "runtime": {
+          "CIA-DECLASSIFIED.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CIA-DECLASSIFIED/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
