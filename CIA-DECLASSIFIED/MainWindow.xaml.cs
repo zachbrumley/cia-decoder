@@ -69,5 +69,10 @@ namespace CIA_DECLASSIFIED
                 txtMessage.Text = decoder.DECODE(bmp);
             }        
         }
+
+        private void mitExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

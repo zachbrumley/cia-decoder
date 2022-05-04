@@ -68,14 +68,14 @@ namespace CIA_DECLASSIFIED
         {
             StringBuilder sb = new();
 
-            //Loop through image 
-            for (int y = 0; y < picH; y++)
+            //loop through image, starting in middle
+            for (int y = picW/2; y < picH; y++)
             {
                 for (int x = 0; x < picW; x++)
                 {
                     Color clrCurrent = bmp.GetPixelColor(x, y);
 
-                    //checking for encoded red values and adding them to message
+                    //checking for encoded red values and add them to message
                     if (clrCurrent.R == 32)
                     {
                         sb.Append((char)clrCurrent.R);
@@ -87,6 +87,10 @@ namespace CIA_DECLASSIFIED
                     else if (clrCurrent.R >= 65 && clrCurrent.R <= 90)
                     {
                         sb.Append((char)clrCurrent.R);
+                    }
+                    else
+                    {
+                        return sb.ToString();
                     }
 
                 }
@@ -112,9 +116,5 @@ namespace CIA_DECLASSIFIED
             read.Close();
             return fileHeader;
         }
-
-
-
-
     }
 }
